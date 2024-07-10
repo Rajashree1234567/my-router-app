@@ -2,9 +2,30 @@
 .subcontent {
     margin: 12% 2%;
 }
+.btnSingleValue {
+    background-color: firebrick;
+    color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 1ch;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    display: block;
+    margin: 10px 0px;
+}
 /* about */
 .userBg {
     background-color: chocolate;
     padding: 10px 30px;
     border-radius: 2ch ;
+}
+/* contactfor */
+.inputField {
+    display: block;
+    width: 200px;
+    height: 30px;
+    border-radius: 1ch;
+    outline: none;
+    margin: 10px 0px;
+    padding: 0px 20px;
 }

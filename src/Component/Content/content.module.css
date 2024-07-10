@@ -1,6 +1,6 @@
 
 .content {
-    margin: 10% 5%;
+    margin: 15% 5%;
 }
 .imageSize {
     width: 200px;
@@ -10,7 +10,21 @@
 }
 .oddSubContent {
     display: flex;
+    align-items: center;
     justify-content: space-around;
+    gap: 20px;
+}
+.contactSubContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.onlyFlexBox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
 }
 .evenSubContent {
     margin-top: 10%;
@@ -31,7 +45,11 @@
     font-weight: 600;
     text-shadow:  1px 1px 2px rgb(221, 149, 191);;
 }
-
+.fillBox {
+    background-color: rgb(166, 165, 165);
+    border-radius: 1ch;
+    padding: 20px;
+}
 /* home */
 .btnDownload {
     display: flex;
@@ -40,7 +58,7 @@
     background-color: firebrick;
     color: #ffffff;
     padding: 0px 12px 0px 8px;
-    border-radius: 1rem ;
+    border-radius: 1ch ;
     border: none;
     cursor: pointer;
 }
