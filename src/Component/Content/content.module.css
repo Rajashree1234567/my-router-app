@@ -1,0 +1,71 @@
+
+.content {
+    margin: 10% 5%;
+}
+.imageSize {
+    width: 200px;
+}
+.iconSize{
+    width: 30px;
+}
+.oddSubContent {
+    display: flex;
+    justify-content: space-around;
+}
+.evenSubContent {
+    margin-top: 10%;
+}
+.centerContent {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textHeadingBold {
+    font-weight: 600;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px rgb(81, 81, 191);
+}
+.textColoumHead {
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow:  1px 1px 2px rgb(221, 149, 191);;
+}
+
+/* home */
+.btnDownload {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: firebrick;
+    color: #ffffff;
+    padding: 0px 12px 0px 8px;
+    border-radius: 1rem ;
+    border: none;
+    cursor: pointer;
+}
+
+/* About */
+.textBoxSpaceAround {
+    margin: 40px;
+}
+.gridContainer {
+    margin: 7% 23%;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+/* github */
+.gitFollowbg {
+    background-color: rgb(251, 225, 205);
+    padding: 10px 30px;
+    border-radius: 2ch ;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.gitFollowText {
+    color: #000000;
+    font-weight: 500;
+    font-size: 20px;
+}
