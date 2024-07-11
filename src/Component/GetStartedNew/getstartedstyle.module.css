@@ -1,0 +1,41 @@
+
+.getStarted {
+    margin: 15% 5%;
+}
+.getstartedSubBox {
+    display: flex;
+    gap: 20px;
+}
+.GetStartedBox{
+    background-color: rgb(211, 197, 223);
+    padding: 20px;
+    border-radius: 1ch;
+}
+/* date&time */
+.signupbtn {
+    background-color: rgb(241, 47, 69);
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 1ch;
+    cursor: pointer;
+    border: none;
+    margin-top: 5%;
+}
+.signupbtn:hover {
+    background-color: rgb(153, 244, 130);
+    color: #000000;
+}
+.signupbtn:active {
+    background-color: rgb(130, 185, 244);
+    color: #000000;
+}
+.signupbtn:visited {
+    background-color: rgb(216, 236, 3);
+    color: #000000;
+}
+.textDate {
+    font-size: 16px;
+    font-weight: 600;
+}

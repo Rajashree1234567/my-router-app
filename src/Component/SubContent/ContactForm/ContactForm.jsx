@@ -28,7 +28,7 @@ export const ContactForm = () => {
       errObj.email = 'Email is not Valid'
     }
 
-    if(formData.phone.trim() === '' && !/^\d{10}$/.test(formData.phone)){
+    if(formData.phone.trim() === '' && !/^\d{1,10}$/.test(formData.phone)){
       errObj.phone = "Phone number should be 10 digit and it can't be empty"
     }
 
@@ -41,6 +41,7 @@ export const ContactForm = () => {
   function handleSubmitContact(e){
     e.preventDefault();
     const validation = ValidationError ();
+    console.log('Form submitted:', formData);
   }
 
   

@@ -52,7 +52,15 @@ function Header() {
           </div>
           <div className={styled.mainBtn}>
             <button className={styled.btnWithoutBorder}>Log in</button>
-            <button className={styled.btnWithBorder}>Get started</button>
+            <button className={styled.btnWithBorder}>
+              <NavLink
+                to="getStarted" 
+                className={styled.menuItem}
+                style={({isActive})=>({color:isActive? "black" : "white"})}  
+              >
+                Get started Something New
+              </NavLink>   
+            </button>
           </div>
         </div>
       </div>

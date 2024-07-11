@@ -13,6 +13,9 @@ import { AboutMenu } from "./Component/Content/AboutMenu";
 import { GithubMenu } from "./Component/Content/GithubMenu";
 import { ContactMenu } from "./Component/Content/ContactMenu";
 import { User } from "./Component/SubContent/User";
+import { LoginModal } from "./Component/LoginPassword/LoginModal";
+import { ResetOrForget } from "./Component/LoginPassword/ResetOrForget";
+import { MainGetSated } from "./Component/GetStartedNew/MainGetSated";
 
 // const router = createBrowserRouter([
 //   {
@@ -54,6 +57,18 @@ const router = createBrowserRouter(
       <Route 
         path="user/:userId" 
         element={<User />} />
+      <Route
+        path='login'
+        element={<LoginModal />}
+      />
+      <Route
+        path="resetPassword"
+        element={<ResetOrForget />}
+      />
+      <Route
+        path="getStarted"
+        element={<MainGetSated />}
+      />
     </Route>
   )
 );
