@@ -2,14 +2,15 @@
 .getStarted {
     margin: 15% 5%;
 }
-.getstartedSubBox {
-    display: flex;
-    gap: 20px;
-}
 .GetStartedBox{
     background-color: rgb(211, 197, 223);
     padding: 20px;
     border-radius: 1ch;
+}
+.getstartedSubBox {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 /* date&time */
 .signupbtn {
@@ -38,4 +39,15 @@
 .textDate {
     font-size: 16px;
     font-weight: 600;
+}
+
+@media only screen and (max-width: 760px){
+    .getstartedSubBox {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 960px){
+    .getstartedSubBox {
+        flex-direction: column;
+    }
 }

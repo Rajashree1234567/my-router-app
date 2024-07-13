@@ -3,6 +3,8 @@ import React from 'react'
 import { GetStartedDateConvert } from './GetStartedDateConvert'
 import styled from "./getstartedstyle.module.css";
 import { ReverseString } from './ReverseString';
+import { NumberReverse } from './NumberReverse';
+import { FindDuplicate } from './FindDuplicate';
 
 export const MainGetSated = () => {
   return (
@@ -13,6 +15,12 @@ export const MainGetSated = () => {
             </div>
             <div>
                 <ReverseString />
+            </div>
+            <div>
+              <NumberReverse />
+            </div>
+            <div>
+              <FindDuplicate />
             </div>
         </div>
     </div>
